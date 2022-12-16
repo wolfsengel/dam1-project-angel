@@ -1,0 +1,9 @@
+<film Runtime="1h34m"> <!--No numbers-->
+	<title>Pirates of Silicon Valley</title>
+	<director>Martyn Burke</director><!--Bad slash-->
+	<original Language="English"><!--Not a label with spaces-->
+		<description>
+			Based upon the friendship and eventual breakdown between <strong>Bill Gates</strong> and <strong>Steve Jobs</strong> in the very early startup days of Microsoft and Apple from their home garages. This film does a great job of showing it&#x27;s about being the first to have an idea, it&#x27;s about who&#x27;s first to act on it properly and with passion, exemplified by their "theft" of the first GUI system from Xerox.
+		</description><!--Need of especification of the ' symbol-->
+	</original><!--Missing end of label-->
+</film>		

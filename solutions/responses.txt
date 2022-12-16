@@ -1,0 +1,10 @@
+O xml: 763 bytes
+O json: 555 bytes
+
+Máis ou menos un 30%
+
+
+-------------------------------------------------------------
+
+
+The answer is 2 because when we declare depth, we are looking for both
