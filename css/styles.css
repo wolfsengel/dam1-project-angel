@@ -1,0 +1,147 @@
+body{
+    height: 100%;
+}
+.header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+  padding:20px 0;
+  text-align: center;
+  background: black;
+  color: #0077ff;
+}
+.rayita{
+    display: flex;
+    height: 10px;
+    background-color: #0077ff;
+}
+h1 {
+    font-size: 2.8em;
+    padding: 5px 0;
+    font-weight: 800;
+  }
+  .abajo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    color: #0077ff;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+  }
+  .abajo p{
+    padding:10px;
+  }
+  .abajo .nome{
+    font-weight:700;
+  }
+  .accesos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-content: center;
+  }
+  .accesos section{
+    width: 350px;
+    height: 400px;
+    display :flex ;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10%;
+    padding:0px;
+    background-color: black;
+  }
+  .accesos a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+  }
+
+  .xml a{
+    margin: 0px;
+    align-self: center;
+    color: #F69E30;
+  }
+  .xml a:hover{
+    color: white;
+  }
+  section.accesos section.xml img.xmlimg{
+    margin: 10px;
+    height: 30px;
+    width:30px;
+  }
+  .json a{
+    margin-top: 5px;
+    align-self: center;
+    color: #9777AB;
+  }
+  .json a:hover{
+    color: white;
+  }
+  .accesos .json img.jsonimg{
+    margin: 10px;
+    height: 30px;
+    width:30px;
+  }
+  .svg a{
+    margin-top: 5px;
+    align-self: center;
+    color: #5153ff;
+  }
+  .svg a:hover{
+    color: white;
+  }
+  .accesos .svg img.svgimg{
+    margin: 10px;
+    height: 30px;
+    width:30px;
+  }
+
+  .accesos .xml .rayitaxml{
+    width: 100%;
+    height: 5px;
+    background-color: #F69E30;
+ }
+ .accesos .json .rayitajson{
+    width: 100%;
+    height: 5px;
+    background-color: #9777AB;
+ }
+ .accesos .svg .rayitasvg{
+    width: 100%;
+    height: 5px;
+    background-color: #5153ff;
+ }
+
+  .accesos img.xml2{
+    border-radius: 10px;
+    padding-top: 10px;
+    margin: 0;
+    width: 100%;
+    height: 75%;
+  }
+  .accesos img.json2{
+    border-radius: 10px;
+    padding-top: 10px;
+    margin: 0;
+    width: 100%;
+    height: 75%;
+  }
+  .accesos img.svg2{
+    border-radius: 10px;
+    padding-top: 10px;
+    margin: 0;
+    width: 100%;
+    height: 75%;
+  }
+  @media screen and (max-width:1000px){
+    .accesos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+        align-content: center;
+      }
+  }
