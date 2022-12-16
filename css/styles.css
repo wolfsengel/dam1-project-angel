@@ -36,6 +36,9 @@ h1 {
   .abajo .nome{
     font-weight:700;
   }
+  .abajo a:hover{
+    color: white;
+  }
   .accesos{
     display: flex;
     flex-direction: row;
@@ -144,4 +147,12 @@ h1 {
         justify-content: space-between;
         align-content: center;
       }
+      .abajo{
+        position: absolute;
+        top:1800px;
+      }
   }
+
+
+
+  
